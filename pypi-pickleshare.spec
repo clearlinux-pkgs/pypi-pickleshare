@@ -4,7 +4,7 @@
 #
 Name     : pypi-pickleshare
 Version  : 0.7.5
-Release  : 44
+Release  : 45
 URL      : https://files.pythonhosted.org/packages/d8/b6/df3c1c9b616e9c0edbc4fbab6ddd09df9535849c64ba51fcb6531c32d4d8/pickleshare-0.7.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d8/b6/df3c1c9b616e9c0edbc4fbab6ddd09df9535849c64ba51fcb6531c32d4d8/pickleshare-0.7.5.tar.gz
 Summary  : Tiny 'shelve'-like database with concurrency support
@@ -14,9 +14,6 @@ Requires: pypi-pickleshare-license = %{version}-%{release}
 Requires: pypi-pickleshare-python = %{version}-%{release}
 Requires: pypi-pickleshare-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pickleshare
-Provides: pickleshare-python
-Provides: pickleshare-python3
 
 %description
 Like shelve, a PickleShareDB object acts like a normal dictionary. Unlike shelve,
@@ -62,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641468227
+export SOURCE_DATE_EPOCH=1651167781
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
